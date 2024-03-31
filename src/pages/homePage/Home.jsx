@@ -10,7 +10,7 @@ const Home = () => {
                     <h1 className='title'>Find Real Estate & Get Your Dream Place</h1>
                     <p className='description'>
                         Real Estates with state of the art architecture, design and very affordable with 
-                        serene environment, stable electricity, frequest water supply.
+                        serene environment, stable electricity, and frequent water supply.
                     </p>
                     <SearchBar />
                     <div className="boxes">
