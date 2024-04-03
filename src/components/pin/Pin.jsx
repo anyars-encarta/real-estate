@@ -11,7 +11,7 @@ const Pin = ({ item }) => {
                     <img src={item.img} alt="" />
                     <div className="textContainer">
                         <Link to={`/${item.id}`}>{item.title}</Link>
-                        <span>{item.bedroom} {item.bedroom > 1 ? 'bedrooms' : 'bedroom'}</span>
+                        <span>{item.bedroom} bedroom</span>
                         <b>$ {item.price}</b>
                     </div>
                 </div>
