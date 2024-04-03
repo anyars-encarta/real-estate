@@ -1,14 +1,31 @@
+@import '../../responsive.scss';
+
 .singlePage {
     display: flex;
     height: 100%;
+
+    @include md {
+        flex-direction: column;
+        overflow: scroll;
+    }
 
     .details {
         flex: 3;
         height: 100%;
         overflow: scroll;
 
+        @include md {
+            flex: none;
+            height: max-content;
+            margin-bottom: 50px;
+        }
+
         .wrapper {
             padding-right: 50px;
+
+            @include md {
+                padding-right: 0;
+            }
         }
 
         .info {
@@ -82,6 +99,12 @@
         height: 100%;
         overflow: scroll;
 
+        @include md {
+            flex: none;
+            height: max-content;
+            margin-bottom: 50px;
+        }
+
         .wrapper {
             padding: 0 20px;
             display: flex;
@@ -139,6 +162,10 @@
             .sizes {
                 display: flex;
                 justify-content: space-between;
+
+                @include lg {
+                    font-size: 12px;
+                }
 
                 .size {
                     display: flex;
