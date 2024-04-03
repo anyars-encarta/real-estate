@@ -13,7 +13,7 @@
         gap: 20px;
         overflow-y: scroll;
         margin-bottom: 20px;
-        
+
         h1 {
             font-weight: 300;
         }
@@ -93,16 +93,19 @@
             .chatMessage {
                 width: 80%;
                 display: flex;
-                gap: 20px;
-                background-color: #d3c9b385;
-                padding: 10px;
-                border-radius: 10px;
-                
+                gap: 5px;
+
                 img {
                     width: 40px;
                     height: 40px;
                     object-fit: cover;
                     border-radius: 50%;
+                }
+
+                .chatText {
+                    background-color: #d3c9b385;
+                    padding: 10px;
+                    border-radius: 10px;
                 }
 
                 &.own {
@@ -113,7 +116,7 @@
 
                 span {
                     font-size: 12px;
-                    background-color:#f7c14b85;
+                    background-color: #f7c14b85;
                     padding: 2px;
                     border-radius: 5px;
                 }
