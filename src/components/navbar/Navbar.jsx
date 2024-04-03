@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
-import './navbar.scss';
+import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import MenuCloser from '../MenuCloser';
+import './navbar.scss';
+
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const ref = useRef();
+  MenuCloser(ref, () => setOpen(false));
 
   return (
     <nav>
@@ -27,7 +31,7 @@ const Navbar = () => {
           {/* Can also use onClick={() => setOpen((prev) => !prev)} */}
           <img src={open ? '/close.png' : '/menu.png'} alt="" onClick={() => setOpen(!open)}/>
         </div>
-        <div className={open ? 'menu active' : 'menu'}>
+        <div className={open ? 'menu active' : 'menu'} ref={ref}>
           <Link to='/'>Home</Link>
           <Link to='/'>About</Link>
           <Link to='/'>Contact</Link>
