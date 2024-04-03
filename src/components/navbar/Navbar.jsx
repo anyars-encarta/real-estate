@@ -48,12 +48,12 @@ const Navbar = () => {
           <img src={open ? '/close.png' : '/menu.png'} alt="" onClick={() => setOpen(!open)} />
         </div>
         <div className={open ? 'menu active' : 'menu'} ref={ref}>
-          <Link to='/'>Home</Link>
-          <Link to='/'>About</Link>
-          <Link to='/'>Contact</Link>
-          <Link to='/'>Agents</Link>
-          <Link to='/'>Sign in</Link>
-          <Link to='/'>Sign up</Link>
+          <Link to='/' onClick={() => setOpen(false)}>Home</Link>
+          <Link to='/' onClick={() => setOpen(false)}>About</Link>
+          <Link to='/' onClick={() => setOpen(false)}>Contact</Link>
+          <Link to='/' onClick={() => setOpen(false)}>Agents</Link>
+          <Link to='/' onClick={() => setOpen(false)}>Sign in</Link>
+          <Link to='/' onClick={() => setOpen(false)}>Sign up</Link>
         </div>
       </div>
     </nav>
