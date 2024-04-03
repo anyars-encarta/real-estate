@@ -87,44 +87,74 @@ const Chat = () => {
                     </div>
                     <div className="chatCenter">
                         <div className="chatMessage">
-                            <p>Lorem ipsum dolor sit, amet consectetur.</p>
-                            <span>1 hour ago</span>
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+                            <div className="chatText">
+                                <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                                <span>1 hour ago</span>
+                            </div>
                         </div>
                         <div className="chatMessage">
-                            <p>Lorem ipsum dolor sit, amet consectetur.</p>
-                            <span>1 hour ago</span>
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+                            <div className="chatText">
+                                <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                                <span>1 hour ago</span>
+                            </div>
                         </div>
                         <div className="chatMessage own">
-                            <p>Lorem ipsum dolor sit, amet consectetur.</p>
-                            <span>1 hour ago</span>
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+                            <div className="chatText">
+                                <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                                <span>1 hour ago</span>
+                            </div>
                         </div>
                         <div className="chatMessage own">
-                            <p>Lorem ipsum dolor sit, amet consectetur.</p>
-                            <span>1 hour ago</span>
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+                            <div className="chatText">
+                                <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                                <span>1 hour ago</span>
+                            </div>
                         </div>
                         <div className="chatMessage own">
-                            <p>Lorem ipsum dolor sit, amet consectetur.</p>
-                            <span>1 hour ago</span>
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+                            <div className="chatText">
+                                <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                                <span>1 hour ago</span>
+                            </div>
                         </div>
                         <div className="chatMessage">
-                            <p>Lorem ipsum dolor sit, amet consectetur.</p>
-                            <span>1 hour ago</span>
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+                            <div className="chatText">
+                                <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                                <span>1 hour ago</span>
+                            </div>
                         </div>
                         <div className="chatMessage own">
-                            <p>Lorem ipsum dolor sit, amet consectetur.</p>
-                            <span>1 hour ago</span>
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+                            <div className="chatText">
+                                <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                                <span>1 hour ago</span>
+                            </div>
                         </div>
                         <div className="chatMessage own">
-                            <p>Lorem ipsum dolor sit, amet consectetur.</p>
-                            <span>1 hour ago</span>
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+                            <div className="chatText">
+                                <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                                <span>1 hour ago</span>
+                            </div>
                         </div>
                         <div className="chatMessage">
-                            <p>Lorem ipsum dolor sit, amet consectetur.</p>
-                            <span>1 hour ago</span>
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+                            <div className="chatText">
+                                <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                                <span>1 hour ago</span>
+                            </div>
                         </div>
                         <div className="chatMessage own">
-                            <p>Lorem ipsum dolor sit, amet consectetur.</p>
-                            <span>1 hour ago</span>
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+                            <div className="chatText">
+                                <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                                <span>1 hour ago</span>
+                            </div>
                         </div>
                     </div>
                     <div className="chatBottom">
