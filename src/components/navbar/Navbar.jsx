@@ -9,6 +9,8 @@ const Navbar = () => {
   const ref = useRef();
   MenuCloser(ref, () => setOpen(false));
 
+  const user = true;
+
   return (
     <nav>
       <div className="left">
@@ -23,13 +25,25 @@ const Navbar = () => {
       </div>
 
       <div className="right">
-        <Link to='/'>Sign in</Link>
-        <Link to='/' className='signup'>
-          Sign up
-        </Link>
+        {user ? (
+          <div className='user'>
+            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="user" />
+            <span className='userText'>Anyars Encarta</span>
+            <Link to='/profile' className='profile'>
+              <div className="notification">3</div>
+              <span>Profile</span>
+            </Link>
+          </div>
+        ) : (
+          <>
+            <Link to='/'>Sign in</Link>
+            <Link to='/' className='signup'>Sign up</Link>
+          </>
+        )}
+
         <div className="menuIcon">
           {/* Can also use onClick={() => setOpen((prev) => !prev)} */}
-          <img src={open ? '/close.png' : '/menu.png'} alt="" onClick={() => setOpen(!open)}/>
+          <img src={open ? '/close.png' : '/menu.png'} alt="" onClick={() => setOpen(!open)} />
         </div>
         <div className={open ? 'menu active' : 'menu'} ref={ref}>
           <Link to='/'>Home</Link>
