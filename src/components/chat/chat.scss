@@ -12,10 +12,7 @@
         flex-direction: column;
         gap: 20px;
         overflow-y: scroll;
-        
-        @include md {
-            margin-bottom: 20px;
-        }
+        margin-bottom: 20px;
         
         h1 {
             font-weight: 300;
