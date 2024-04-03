@@ -64,6 +64,19 @@
             font-weight: bold;
             padding: 50px;
             cursor: pointer;
+
+            img {
+                width: 36px;
+                height: 36px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    border: 2px solid white;
+                    border-radius: 50%;
+                    padding: 5px;
+                    transform: rotate(180deg);
+                }
+            }
         }
     }
 
