@@ -6,6 +6,10 @@
     display: flex;
     gap: 20px;
 
+    @include sm {
+        height: 280px;
+    }
+
     .fullSlider {
         position: absolute;
         width: 100vw;
@@ -25,17 +29,14 @@
             justify-content: center;
 
             img {
-                // width: 40px;
-                // height: 50px;
+                width: 50px;
 
                 @include md {
                     width: 30px;
-                    height: 40px;
                 }
 
                 @include sm {
                     width: 20px;
-                    height: 30px;
                 }
 
                 &.right {
@@ -44,7 +45,7 @@
             }
         }
 
-        .imgageContainer {
+        .imageContainer {
             flex: 10;
 
             img {
@@ -75,7 +76,11 @@
     }
 
     .bigImage {
-        flex: 3; 
+        flex: 3;
+
+        @include sm {
+            flex: 2;
+        }
     }
 
     .smallImages {
@@ -85,8 +90,16 @@
         justify-content: space-between;
         gap: 20px;
 
+        @include sm {
+            flex: 1;
+        }
+
         img {
-          height: 100px;
+            height: 100px;
+
+            @include sm {
+                height: 80px;
+            }
         }
     }
 }
