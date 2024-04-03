@@ -33,7 +33,9 @@ const Slider = ({ images }) => {
                     <div className="arrow">
                         <img src="/arrow.png" alt="" className='right' onClick={() => changeSlide('right')} />
                     </div>
-                    <div className="close" onClick={() => setImageIndex(null)}>X</div>
+                    <div className="close" onClick={() => setImageIndex(null)}>
+                        <img src="/close.png" alt="" />
+                    </div>
                 </div>
             )}
 
