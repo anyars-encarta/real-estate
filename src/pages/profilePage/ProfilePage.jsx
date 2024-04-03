@@ -29,7 +29,9 @@ const ProfilePage = () => {
             </div>
 
             <div className="chatContainer">
-                <div className="wrapper"></div>
+                <div className="wrapper">
+                    
+                </div>
             </div>
         </div>
     )
